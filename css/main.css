@@ -11,6 +11,10 @@ html {
   scroll-behavior: smooth;
   line-height: 1.5rem;
   font-family: Poppins;
+  --orange1: rgb(256, 106, 0);
+  --orange2: rgb(256,130,0);
+  --footercolor: black;
+  
 }
 body {
   display: flex;
