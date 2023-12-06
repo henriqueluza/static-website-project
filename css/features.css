@@ -12,8 +12,9 @@ html {
   line-height: 1.5rem;
   font-family: Poppins;
   --orange1: rgb(256, 106, 0);
-  --orange2: rgb(256, 130, 0);
+  --orange2: rgb(256,130,0);
   --footercolor: black;
+  
 }
 body {
   display: flex;
@@ -26,10 +27,13 @@ body {
   text-decoration: underline;
   text-decoration-color: white;
 }
-li a {
+li,
+a,
+button {
   font-family: Poppins;
   font-weight: 500;
   font-size: 16px;
+  color: #edf0f1;
   text-decoration: none;
 }
 
@@ -71,6 +75,11 @@ button {
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease-out 0s;
+}
+
+/* content */
+.content {
+  flex: 1 0 auto;
 }
 
 /* footer */
@@ -170,121 +179,4 @@ hr {
   height: 200px;
   width: 200px;
   object-fit: contain;
-}
-/* content */
-.content {
-  flex: 1 0 auto;
-  display: flex;
-  justify-content: center;
-}
-.menu-grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  --row-height: 300px;
-  grid-auto-rows: repeat(var(--row-height));
-  gap: 0px;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-.container-special{
-  grid-column: span 2;
-  background-image: url(../assets/promos.jpg);
-  display: flex;
-  background-size: cover;
-  width: 1400px;
-  height: 700px;  
-  justify-content: center;
-}
-.container-special a{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-}
-.container-special a:hover{
-  transform: scale(150%);
-  transition: all 0.3s ease-out 0s;
-  color: white;
-}
-
-.container1{
-  background-image: url(../assets/breakfast.jpg);
-  display: flex;
-  background-size: cover;
-  width: 700px;
-  height: 700px;  
-  justify-content: center;
-}
-.container1 a{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-}
-.container1 a:hover{
-  transform: scale(150%);
-  transition: all 0.3s ease-out 0s;
-  color: white;
-}
-.container2{
-background-image: url(../assets/burgers.jpg);
-display: flex;
-  background-size: cover;
-  width: 700px;
-  height: 700px;  
-  justify-content: center;
-}
-.container2 a{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-}
-.container2 a:hover{
-  transform: scale(150%);
-  transition: all 0.3s ease-out 0s;
-  color: white;
-}
-.container3{
-background-image: url(../assets/friescover.jpg);
-display: flex;
-  background-size: cover;
-  width: 700px;
-  height: 700px;  
-  justify-content: center;
-}
-.container3 a{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-}
-.container3 a:hover{
-  transform: scale(150%);
-  transition: all 0.3s ease-out 0s;
-  color: white;
-}
-.container4{
-background-image: url(../assets/drinks.jpg);
-display: flex;
-  background-size: cover;
-  width: 700px;
-  height: 700px;  
-  justify-content: center;
-}
-.container4 a{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-}
-.container4 a:hover{
-  transform: scale(150%);
-  transition: all 0.3s ease-out 0s;
-  color: white;
 }
