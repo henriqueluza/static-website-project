@@ -74,7 +74,6 @@ button {
   cursor: pointer;
   transition: all 0.3s ease-out 0s;
 }
-/* CONTENT */
 
 
 /* footer */
@@ -176,6 +175,169 @@ hr {
   object-fit: contain;
 }
 /* content */
-content {
+.content {
   flex: 1 0 auto;
 }
+.about-header{
+  display: flex;
+  background-image: url(../assets/WWA1_0.jpg);
+  background-repeat: no-repeat;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+.about-header h1{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.history{
+  margin-bottom: 2rem;
+}
+.history h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(256, 130, 0);
+    color: white;
+    font-weight: 400;
+}
+.history h4{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+  background-color: rgb(256, 130, 0);
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+.history-text{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+}
+.history p{
+  margin-bottom: 0.5rem;
+}
+.extras {
+  display: flex;
+  justify-content: center;
+}
+.extras-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/extraheader.jpg);
+  width: 100%;
+  background-size: cover;
+  height: 500px;
+  color: white;
+}
+.extras-titles h2{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(256, 130, 0);
+  color: white;
+  font-weight: 400;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+.extras-titles h4{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(256, 130, 0);
+  color: white;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+.extras-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 2rem;
+}
+.hiring h4{
+background-color: rgb(256, 106, 0);
+color: white;
+padding: 1rem 1rem 1rem 1rem;
+}
+.franchising h4{
+  background-color: rgb(256, 106, 0);
+  color: white;
+  padding: 1rem 1rem 1rem 1rem;
+}
+.investors h4{
+  background-color: rgb(256, 106, 0);
+  color: white;
+  padding: 1rem 1rem 1rem 1rem;
+}
+.hiring p{
+background-color: rgb(256, 130, 0);
+color: white;
+padding: 1rem 2rem 1rem 2rem;
+}
+.franchising p{
+  background-color: rgb(256, 130, 0);
+color: white;
+padding: 1rem 2rem 1rem 2rem;
+}
+.investors p{
+  background-color: rgb(256, 130, 0);
+  color: white;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+
+/*
+.franchising h2{
+  background-color: rgb(256, 130, 0);
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+}
+.franchising h4{
+  background-color: rgb(256, 130, 0);
+  color: white;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+.franchising {
+  background-image: url(../assets/franchising.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 700px;
+  height: 450px;  
+}
+.investors h2{
+  background-color: rgb(256, 130, 0);
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+}
+.investors h4{
+  background-color: rgb(256, 130, 0);
+  color: white;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+.investors {
+background-image: url(../assets/money.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+width: 700px;
+height: 450px;
+}
+
+*/
