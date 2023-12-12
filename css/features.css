@@ -219,11 +219,11 @@ padding-bottom: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../assets/wheat.jpg);
+  background-image: url(../assets/bread.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 500px;
+  height: 700px;
   color: white;
 }
 .bread-title h2{
@@ -242,10 +242,152 @@ padding-bottom: 1rem;
   background-color: rgb(256,130,0);
   color: white;
   padding-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 .bread-text p{
   margin-left: 5rem;
   margin-right: 5rem;
-  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.tomatoes-lettuce-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url(../assets/tomatoes.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  margin-top: 2rem;
+}
+.tomatoes-lettuce-title h2{
+  background-color: rgb(256,130,0);
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+   padding-top: 2rem;
+   padding-bottom: 1rem;
+}
+.tomatoes-lettuce-title h4{
+  background-color: rgb(256,130,0);
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+  padding-bottom: 2rem;
   margin-bottom: 2rem;
 }
+.tomatoes-lettuce-text p{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 0.5rem;
+}
+.cheese-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url(../assets/cheese.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  margin-top: 2rem;
+}
+.cheese-title h2{
+  background-color: rgb(256,130,0);
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+   padding-top: 2rem;
+   padding-bottom: 1rem;
+}
+.cheese-title h4{
+  background-color: rgb(256,130,0);
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+.cheese-text p{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 0.5rem;
+}
+
+.meat-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url(../assets/meat.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  margin-top: 2rem;
+}
+.meat-title h2{
+  background-color: rgb(256,130,0);
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+   padding-top: 2rem;
+   padding-bottom: 1rem;
+}
+.meat-title h4{
+  background-color: rgb(256,130,0);
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+.meat-text p{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 0.5rem;
+}
+.potatoes-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url(../assets/potatoes.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  margin-top: 2rem;
+}
+.potatoes-title h2{
+  background-color: rgb(256,130,0);
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+   padding-top: 2rem;
+   padding-bottom: 1rem;
+}
+.potatoes-title h4{
+  background-color: rgb(256,130,0);
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+.potatoes-text p{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 0.5rem;
+}
+
