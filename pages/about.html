@@ -17,13 +17,23 @@
     <img class="logo" src="../assets/LOGOIMAGE.png" alt="logo" />
     <nav>
       <ul class="navlinks">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="about.html">
-            <div class="actualpage">About</div>
+        <li><a href="../index.html">
+            <div class="actualpage">Home</div>
           </a></li>
-        <li><a href="features.html">Features</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="contact.html">Contact</div></a></li>
+        <li>
+          
+          <div class="dropdown">
+            <button class="dropbtn"><a href="../pages/about.html">About</a></button>
+            <div class="dropdown-content">
+              <a href="../pages/about.html#history">Our History</a>
+              <a href="../pages/about.html#join-us">Join Us!</a>
+              <a href="../pages/about.html#faq">FAQ</a>
+            </div>
+          </div>
+        </li>    
+        <li><a href="../pages/features.html">Features</a></li>
+        <li><a href="../pages/menu.html">Menu</a></li>
+        <li><a href="../pages/contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -34,7 +44,7 @@
       <h1>We're here to make you happy!</h1>
     </div>
     <div class="history">
-      <div class="titles">
+      <div class="titles" id="history">
         <h2>Our history!</h2>
         <h4>"Born from friendship and recipes, redefined burgers, pioneering taste, quality, and sustainability across
           generations."</h4>
@@ -91,7 +101,7 @@
         </p>
       </div>
     </div>
-    <div class="extras-header">
+    <div class="extras-header" id="join-us">
       <h1>
         Together we're stronger!
       </h1>
@@ -127,7 +137,7 @@
       </section>
     </div>
 
-    <div class="faq-header">
+    <div class="faq-header" id="faq">
       <h1>FAQ</h1>
       <h4>Commonly Asked Questions</h4>
     </div>

@@ -16,11 +16,23 @@
       <img class="logo" src="../assets/LOGOIMAGE.png" alt="logo" />
       <nav>
         <ul class="navlinks">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="features.html">Features</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="contact.html"><div class="actualpage">Contact</div></a></li>
+          <li><a href="../index.html">
+              <div class="actualpage">Home</div>
+            </a></li>
+          <li>
+            
+            <div class="dropdown">
+              <button class="dropbtn"><a href="../pages/about.html">About</a></button>
+              <div class="dropdown-content">
+                <a href="../pages/about.html#history">Our History</a>
+                <a href="../pages/about.html#join-us">Join Us!</a>
+                <a href="../pages/about.html#faq">FAQ</a>
+              </div>
+            </div>
+          </li>    
+          <li><a href="../pages/features.html">Features</a></li>
+          <li><a href="../pages/menu.html">Menu</a></li>
+          <li><a href="../pages/contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -36,29 +48,29 @@
                 <div class="input-row">
                   <div class="input-group">
                     <label>Name</label>
-                    <input type="text" placeholder="Your name">
+                    <input type="text" placeholder="Your name" required>
                   </div>
                   <div class="input-group">
                     <label>Phone</label>
-                    <input type="text" placeholder="Your number">
+                    <input type="number" placeholder="Your number" required>
                   </div>
                 </div>
 
                   <div class="input-row">
                     <div class="input-group">
                       <label>Email</label>
-                      <input type="text" placeholder="Your email">
+                      <input type="email" placeholder="Your email" required>
                     </div>
                     <div class="input-group">
                       <label>Subject</label>
-                      <input type="text" placeholder="Any subject">
+                      <input type="text" placeholder="Any subject" required>
                     </div>
                 </div>
 
                 <label>Message</label>
                 <textarea rows="5" placeholder="Your message"></textarea>
 
-                <button type="submit">Send</button>
+                <button class="submit-button" type="submit">Send</button>
 
 
               </form>

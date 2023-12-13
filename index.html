@@ -1,77 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./pages/" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./assets/" />
-    <link rel="stylesheet" href="./main.js" />
-    <title>Fast food brand</title>
-    <script src="https://kit.fontawesome.com/447127b9bf.js" crossorigin="anonymous"></script>
-    <!--I still have no idea about the name of my Restaurant-->
-  </head>
 
-  <body>
-    <header>
-      <img class="logo" src="./assets/LOGOIMAGE.png" alt="logo" />
-      <nav>
-        <ul class="navlinks">
-            <li><a href="index.html"><div class="actualpage">Home</div></a></li>
-            <li><a href="./pages/about.html">About</a></li>
-            <li><a href="./pages/features.html">Features</a></li>
-            <li><a href="./pages/menu.html">Menu</a></li>
-            <li><a href="./pages/contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./pages/" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./assets/" />
+  <link rel="stylesheet" href="./main.js" />
+  <title>Fast food brand</title>
+  <script src="https://kit.fontawesome.com/447127b9bf.js" crossorigin="anonymous"></script>
+</head>
 
-    <content>
-    </content>
-    
-    <footer class="footer">
-      <div class="row">
-        <div class="col logo2">
-          <img src="./assets/LOGOIMAGE.png" />
-          <p>HLZ Burger N' Fries - The Simple Works
-          </p>
-        </div>
-        <div class="col">
-          <h3>Office</h3>
-          <p>Awesome Sauce Building, 12nd Floor, Room 1210</p>
-          <p>Burnaby</p>
-          <p>British Columbia, Canada</p>
-          <p class="email-id">hlzburgernfries@gmail.com</p>
-          <h4>+1 604 363 9742</h4>
-        </div>
-        <div class="col">
-          <h3>Links</h3>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="./pages/about.html">About</a></li>
-            <li><a href="./pages/menu.html">Menu</a></li>
-            <li><a href="./pages/locations.html">Locations</a></li>
-            <li><a href="./pages/contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col">
-          <h3>Newsletter</h3>
-          <form>
-            <i class="fa-solid fa-envelope"></i> <!--mail icon here-->
-            <input type="email" placeholder="Enter your email id" required>
-            <button><i class="fa-solid fa-arrow-right"></i></button> <!--arrow icon here-->
-          </form>
-          <div class="social-icons">
-            <i class="fa-brands fa-x-twitter"></i> <!--twitter-->
-            <i class="fa-brands fa-instagram"></i> <!--instagram-->
-            <i class="fa-brands fa-facebook-f"></i> <!--facebook-->
-            <i class="fa-brands fa-tiktok"></i> <!--tiktok-->
-
+<body>
+  <header>
+    <img class="logo" src="./assets/LOGOIMAGE.png" alt="logo" />
+    <nav>
+      <ul class="navlinks">
+        <li><a href="index.html">
+            <div class="actualpage">Home</div>
+          </a></li>
+        <li>
+          
+          <div class="dropdown">
+            <button class="dropbtn"><a href="./pages/about.html">About</a></button>
+            <div class="dropdown-content">
+              <a href="./pages/about.html#history">Our History</a>
+              <a href="./pages/about.html#join-us">Join Us!</a>
+              <a href="./pages/about.html#faq">FAQ</a>
+            </div>
           </div>
+        </li>    
+        <li><a href="./pages/features.html">Features</a></li>
+        <li><a href="./pages/menu.html">Menu</a></li>
+        <li><a href="./pages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="content">
+    <div class="main-header">
+      <h1>HLZ Burgers n' Fries</h1>
+    </div>
+    <div class="main-title">
+      <h2>Welcome to our Official Website</h2>
+      <h4>Get to know us better!</h4>
+    </div>
+    <div class="main-container">
+      <div class="main-grid">
+      <div class="main-text">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi tempore voluptates sunt quis et. Fuga
+        voluptatem repellat, dignissimos expedita eum ea aliquam esse dicta voluptatibus magni laudantium inventore!
+        Explicabo, sapiente.
+      </div>
+      <img src="./assets/eatingfries.jpg">
+    </div>
+    </div>
+    
+
+    <div class="app">
+      <div class="left">
+        <h2>Download our app and get Rewards</h2>
+        <p>Now that we have Rewards, all you need to do to get your hands on some is sign up online or through the app.
+          Once you’re all signed up, you can collect points on every order that you can redeem for free food in the
+          Rewards Store. So, what are you waiting for?
+        </p>
+        <button class="rewards">Rewards</button>
+        <div class="appstore">
+          <button class="applestore">Download in AppStore<i class="fa-brands fa-app-store-ios"></i></button>
+          <button class="googleplay">Download in Google Play<i class="fa-brands fa-google-play"></i></button>
         </div>
       </div>
-      <hr>
-      <p class="copyright">HLZ Burger N' Fries © 2023 - All rights reserved</p>
-    </footer>
-  </body>
+      <div class="right">
+        <img src="./assets/iphone.png">
+      </div>
+    </div>
+
+    <div class="news">
+      <div class="news-header">
+        <h1>Our News</h1>
+      </div>
+      <div class="news-grid">
+      <figure>
+        <img src="./assets/copenhagen.jpg">
+        <figcaption>
+          <h3>
+            New Restaurant in Copenhagen!
+          </h3>
+          <p>
+            Our first restaurant in Europe and it's in Denmark!
+          </p>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="./assets/yhouse.jpeg">
+        <figcaption>
+          <h3>
+            $1.000.000 donated to Charity!
+          </h3>
+          <p>
+            Thanks to your donations, we donated $1 million to the YALETOWN HOUSE FOUNDATION
+          </p>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="./assets/coffee.jpg">
+        <figcaption>
+          <h3>
+            SOON: Coffees!
+          </h3>
+          <p>
+            Make your breakfast even better with coffee, donuts and sweets!
+          </p>
+        </figcaption>
+      </figure>
+    </div>
+    </div>
+    
+  </div>
+
+  <footer class="footer">
+    <div class="row">
+      <div class="col logo2">
+        <img src="./assets/LOGOIMAGE.png" />
+        <p>HLZ Burger N' Fries - The Simple Works
+        </p>
+      </div>
+      <div class="col">
+        <h3>Office</h3>
+        <p>Awesome Sauce Building, 12nd Floor, Room 1210</p>
+        <p>Burnaby</p>
+        <p>British Columbia, Canada</p>
+        <p class="email-id">hlzburgernfries@gmail.com</p>
+        <h4>+1 604 363 9742</h4>
+      </div>
+      <div class="col">
+        <h3>Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="./pages/about.html">About</a></li>
+          <li><a href="./pages/menu.html">Menu</a></li>
+          <li><a href="./pages/locations.html">Locations</a></li>
+          <li><a href="./pages/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Newsletter</h3>
+        <form>
+          <i class="fa-solid fa-envelope"></i> <!--mail icon here-->
+          <input type="email" placeholder="Enter your email id" required>
+          <button><i class="fa-solid fa-arrow-right"></i></button> <!--arrow icon here-->
+        </form>
+        <div class="social-icons">
+          <i class="fa-brands fa-x-twitter"></i> <!--twitter-->
+          <i class="fa-brands fa-instagram"></i> <!--instagram-->
+          <i class="fa-brands fa-facebook-f"></i> <!--facebook-->
+          <i class="fa-brands fa-tiktok"></i> <!--tiktok-->
+
+        </div>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">HLZ Burger N' Fries © 2023 - All rights reserved</p>
+  </footer>
+</body>
+
 </html>
