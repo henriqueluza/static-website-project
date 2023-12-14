@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./pages/" />
   <link rel="stylesheet" href="../css/about.css" />
-  <link rel="stylesheet" href="../css/styles.css"/>
+  <link rel="stylesheet" href="../css/styles.css" />
   <link rel="stylesheet" href="./assets/" />
   <link rel="stylesheet" href="./main.js" />
   <title>Fast food brand</title>
@@ -18,20 +18,22 @@
     <img class="logo" src="../assets/LOGOIMAGE.png" alt="logo" />
     <nav>
       <ul class="navlinks">
-        <li><a href="../index.html">
-            <div class="actualpage">Home</div>
-          </a></li>
         <li>
-          
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+
           <div class="dropdown">
-            <button class="dropbtn"><a href="../pages/about.html">About</a></button>
+            <button class="dropbtn"><a href="../pages/about.html">
+                <div class="actualpage">About</div>
+              </a></button>
             <div class="dropdown-content">
               <a href="../pages/about.html#history">Our History</a>
               <a href="../pages/about.html#join-us">Join Us!</a>
               <a href="../pages/about.html#faq">FAQ</a>
             </div>
           </div>
-        </li>    
+        </li>
         <li><a href="../pages/features.html">Features</a></li>
         <li><a href="../pages/menu.html">Menu</a></li>
         <li><a href="../pages/contact.html">Contact</a></li>
@@ -39,13 +41,14 @@
     </nav>
   </header>
 
+  <!-- MAIN -->
 
-  <div class="content">
+  <main>
     <div class="about-header">
       <h1>We're here to make you happy!</h1>
     </div>
-    <div class="history">
-      <div class="titles" id="history">
+    <section class="history" id="history">
+      <div class="titles" >
         <h2>Our history!</h2>
         <h4>"Born from friendship and recipes, redefined burgers, pioneering taste, quality, and sustainability across
           generations."</h4>
@@ -101,8 +104,9 @@
           innovation, and the pursuit of gastronomic bliss.
         </p>
       </div>
-    </div>
-    <div class="extras-header" id="join-us">
+    </section>
+    <section class="extras">
+      <div class="extras-header" id="join-us">
       <h1>
         Together we're stronger!
       </h1>
@@ -110,11 +114,9 @@
     <div class="extras-titles">
       <h2>Join Us!</h2>
       <h4>If you join us, everyone wins: Our company and you!</h4>
-
-
     </div>
 
-    <div class="extras-grid">
+    <section class="extras-grid">
       <section class="hiring">
         <h4>We're Hiring!</h4>
         <p>Fill out this form with your Resume and answer some of our questions, and if we think you're fit for the job,
@@ -136,70 +138,67 @@
           <a href="./404.html"><button><i class="fa-solid fa-money-bill"></i></button></a>
         </p>
       </section>
-    </div>
+    </section>
 
-    <div class="faq-header" id="faq">
-      <h1>FAQ</h1>
-      <h4>Commonly Asked Questions</h4>
-    </div>
-    <div class="faq">
-      <section class="accordion1">
-        <div class="tab">
-          <input type="checkbox" name="accordion-1" id="cb1" checked>
-          <label for="cb1" class="tab__label">What sets HLZ burgers apart from other competitors in terms of taste and
-            ingredients?</label>
-          <div class="tab__content">
-            <p>HLZ's burgers stand out due to a unique blend of flavors and the quality of their ingredients. Our
-              burgers are crafted using locally sourced, fresh produce and premium beef, ensuring a taste that's both
-              delicious and distinctive. Additionally, our secret sauce, perfected over years of experimentation, adds
-              that extra special touch to every bite, setting HLZ burgers apart in terms of flavor and quality.</p>
-          </div>
+    </section>
+    
+    <section class="faq">
+      <div class="faq-header" id="faq">
+        <h1>FAQ</h1>
+        <h4>Commonly Asked Questions</h4>
+      </div>
+      <div class="faq-container">
+        <section class="accordion1">
+          <div class="tab">
+            <input type="checkbox" name="accordion-1" id="cb1" checked>
+            <label for="cb1" class="tab__label">What sets HLZ burgers apart from other competitors in terms of taste and
+              ingredients?</label>
+            <div class="tab__content">
+              <p>HLZ's burgers stand out due to a unique blend of flavors and the quality of their ingredients. Our
+                burgers are crafted using locally sourced, fresh produce and premium beef, ensuring a taste that's both
+                delicious and distinctive. Additionally, our secret sauce, perfected over years of experimentation, adds
+                that extra special touch to every bite, setting HLZ burgers apart in terms of flavor and quality.</p>
+            </div>
+        </section>
+      </div>
+      <div class="faq-container">
+        <section class="accordion2">
+          <div class="tab">
+            <input type="checkbox" name="accordion-2" id="cb2" checked>
+            <label for="cb2" class="tab__label">Could you describe HLZ's approach to sustainability and how it
+              influences
+              their burger production and operations?</label>
+            <div class="tab__content">
+              <p>At HLZ, sustainability is at the core of our operations. We've implemented various eco-friendly
+                initiatives, such as sourcing our ingredients from sustainable farms, reducing food waste through
+                composting, and using biodegradable packaging. We're committed to minimizing our environmental impact,
+                and
+                we continually explore innovative ways to make our burger production more sustainable, from
+                energy-efficient appliances in our kitchens to supporting local conservation efforts.</p>
+            </div>
 
-      </section>
-
-    </div>
-    <div class="faq">
-      <section class="accordion2">
-        <div class="tab">
-          <input type="checkbox" name="accordion-2" id="cb2" checked>
-          <label for="cb2" class="tab__label">Could you describe HLZ's approach to sustainability and how it influences
-            their burger production and operations?</label>
-          <div class="tab__content">
-            <p>At HLZ, sustainability is at the core of our operations. We've implemented various eco-friendly
-              initiatives, such as sourcing our ingredients from sustainable farms, reducing food waste through
-              composting, and using biodegradable packaging. We're committed to minimizing our environmental impact, and
-              we continually explore innovative ways to make our burger production more sustainable, from
-              energy-efficient appliances in our kitchens to supporting local conservation efforts.</p>
-          </div>
-
-      </section>
-    </div>
-    <div class="faq">
-      <section class="accordion3">
-        <div class="tab">
-          <input type="checkbox" name="accordion-3" id="cb3" checked>
-          <label for="cb3" class="tab__label">How does HLZ engage with local communities or support social causes
-            through its burger business?</label>
-          <div class="tab__content">
-            <p>HLZ values being an active member of the community. We regularly collaborate with local charities,
-              organizing events and fundraisers to support important causes. Additionally, we prioritize hiring locally
-              and engaging with community projects. For instance, we might sponsor youth sports teams or participate in
-              neighborhood clean-up initiatives. Our aim is to not only serve great burgers but also contribute
-              positively to the areas where we operate.</p>
-          </div>
-
-      </section>
-    </div>
-
-
-
-
-
-
-
-
-
-  </div>
+        </section>
+      </div>
+      <div class="faq-container">
+        <section class="accordion3">
+          <div class="tab">
+            <input type="checkbox" name="accordion-3" id="cb3" checked>
+            <label for="cb3" class="tab__label">How does HLZ engage with local communities or support social causes
+              through its burger business?</label>
+            <div class="tab__content">
+              <p>HLZ values being an active member of the community. We regularly collaborate with local charities,
+                organizing events and fundraisers to support important causes. Additionally, we prioritize hiring
+                locally
+                and engaging with community projects. For instance, we might sponsor youth sports teams or participate
+                in
+                neighborhood clean-up initiatives. Our aim is to not only serve great burgers but also contribute
+                positively to the areas where we operate.</p>
+            </div>
+        </section>
+      </div>
+    </section>
+  </main>
+ 
 
 
 
@@ -208,7 +207,7 @@
 
 
 
-  <footer class="footer">
+  <footer>
     <div class="row">
       <div class="col logo2">
         <img src="../assets/LOGOIMAGE.png" />
@@ -225,7 +224,7 @@
       </div>
       <div class="col">
         <h3>Links</h3>
-        <ul>
+        <ul class="footer-links">
           <li><a href="../index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="menu.html">Menu</a></li>

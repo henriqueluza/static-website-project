@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./pages/" />
   <link rel="stylesheet" href="../css/features.css" />
-  <link rel="stylesheet" href="../css/styles.css"/>
+  <link rel="stylesheet" href="../css/styles.css" />
   <link rel="stylesheet" href="./assets/" />
   <link rel="stylesheet" href="./main.js" />
   <title>Fast food brand</title>
@@ -18,11 +18,11 @@
     <img class="logo" src="../assets/LOGOIMAGE.png" alt="logo" />
     <nav>
       <ul class="navlinks">
-        <li><a href="../index.html">
-            <div class="actualpage">Home</div>
-          </a></li>
         <li>
-          
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+
           <div class="dropdown">
             <button class="dropbtn"><a href="../pages/about.html">About</a></button>
             <div class="dropdown-content">
@@ -31,15 +31,17 @@
               <a href="../pages/about.html#faq">FAQ</a>
             </div>
           </div>
-        </li>    
-        <li><a href="../pages/features.html">Features</a></li>
+        </li>
+        <li><a href="../pages/features.html">
+            <div class="actualpage">Features</div>
+          </a></li>
         <li><a href="../pages/menu.html">Menu</a></li>
         <li><a href="../pages/contact.html">Contact</a></li>
       </ul>
     </nav>
-  </header>>
+  </header>
 
-  <div class="content">
+<main>
     <div class="features-header">
       <h1>Where does the taste come from?</h1>
     </div>
@@ -49,10 +51,10 @@
       <h4>That make up your special burger and experience</h4>
     </div>
     <div class="features-text">
-      
-    </div>
 
-    <div class="bread-image">
+    </div>
+    <section class="bread">
+      <div class="bread-image">
       <h1>Our special and loved Bread</h1>
     </div>
     <div class="bread-title">
@@ -60,9 +62,13 @@
       <h4>The Bread:</h4>
     </div>
     <div class="bread-text">
-      
+
     </div>
-    <div class="cheese-image">
+    </section>
+
+    
+    <section class="cheese">
+      <div class="cheese-image">
       <h1>Our Slice of Gold in your Burger</h1>
     </div>
     <div class="cheese-title">
@@ -70,9 +76,12 @@
       <h4>The Cheese</h4>
     </div>
     <div class="cheese-text">
-     
+    </section>
+    
+
     </div>
-    <div class="meat-image">
+    <section class="meat">
+      <div class="meat-image">
       <h1>The secret ingredient: The Meat</h1>
     </div>
     <div class="meat-title">
@@ -80,10 +89,13 @@
       <h4>The patty:</h4>
     </div>
     <div class="meat-text">
-      
 
     </div>
-    <div class="potatoes-image">
+    </section>
+    
+
+    <section class="potatoes">
+      <div class="potatoes-image">
       <h1>Golden bites of happiness: French fries</h1>
     </div>
     <div class="potatoes-title">
@@ -91,14 +103,13 @@
       <h4>The French Fries:</h4>
     </div>
     <div class="potatoes-text">
-      
+
     </div>
-    
+    </section>
+</main>
+  
 
-
-  </div>
-
-  <footer class="footer">
+  <footer>
     <div class="row">
       <div class="col logo2">
         <img src="../assets/LOGOIMAGE.png" />
@@ -115,7 +126,7 @@
       </div>
       <div class="col">
         <h3>Links</h3>
-        <ul>
+        <ul class="footer-links">
           <li><a href="../index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="menu.html">Menu</a></li>

@@ -1,5 +1,5 @@
 
-.content {
+main {
   flex: 1 0 auto;
 }
 .about-header{
@@ -12,7 +12,7 @@
   background-size: cover;
 }
 .about-header h1{
-  color: white;
+  color: var(--color2);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,16 +26,16 @@
     justify-content: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: rgb(256, 130, 0);
-    color: white;
+    background-color: var(--orange2);
+    color: var(--color2);
     font-weight: 400;
 }
 .history h4{
   display: flex;
   justify-content: center;
-  color: white;
   font-weight: 400;
-  background-color: rgb(256, 130, 0);
+  background-color: var(--orange2);
+  color: var(--color2);
   padding-bottom: 1rem;
   margin-bottom: 2rem;
 }
@@ -47,10 +47,6 @@
 .history p{
   margin-bottom: 0.5rem;
 }
-.extras {
-  display: flex;
-  justify-content: center;
-}
 .extras-header{
   display: flex;
   justify-content: center;
@@ -59,13 +55,13 @@
   width: 100%;
   background-size: cover;
   height: 500px;
-  color: white;
+  color: var(--color2);
 }
 .extras-titles h2{
   display: flex;
   justify-content: center;
-  background-color: rgb(256, 130, 0);
-  color: white;
+  background-color: var(--orange2);
+  color: var(--color2);
   font-weight: 400;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -74,8 +70,8 @@
 .extras-titles h4{
   display: flex;
   justify-content: center;
-  background-color: rgb(256, 130, 0);
-  color: white;
+  background-color: var(--orange2);
+  color: var(--color2);
   padding-bottom: 1rem;
   margin-bottom: 2rem;
   font-weight: 400;
@@ -89,54 +85,54 @@
   margin-bottom: 2rem;
 }
 .hiring h4{
-background-color: rgb(256, 106, 0);
-color: white;
+  background-color: var(--orange2);
+  color: var(--color2);
 padding: 1rem 1rem 1rem 1rem;
 }
 .franchising h4{
-  background-color: rgb(256, 106, 0);
-  color: white;
+  background-color: var(--orange2);
+  color: var(--color2);
   padding: 1rem 1rem 1rem 1rem;
 }
 .investors h4{
-  background-color: rgb(256, 106, 0);
-  color: white;
+  background-color: var(--orange2);
+  color: var(--color2);
   padding: 1rem 1rem 1rem 1rem;
 }
 .hiring p{
-background-color: rgb(256, 130, 0);
-color: white;
+  background-color: var(--orange2);
+  color: var(--color2);
 padding: 1rem 2rem 1rem 2rem;
 }
 .franchising p{
-  background-color: rgb(256, 130, 0);
-color: white;
+  background-color: var(--orange2);
+  color: var(--color2);
 padding: 1rem 2rem 1rem 2rem;
 }
 .investors p{
-  background-color: rgb(256, 130, 0);
-  color: white;
+  background-color: var(--orange2);
+  color: var(--color2);
   padding: 1rem 2rem 1rem 2rem;
 }
 .faq-header h1{
-  background-color: rgb(256, 130, 0);
   display: flex;
   justify-content: center;
-  color: white;
+  background-color: var(--orange2);
+  color: var(--color2);
   font-weight: 400;
    padding-top: 2rem;
    padding-bottom: 1rem;
 }
 .faq-header h4{
-  background-color: rgb(256,130,0);
   display: flex;
   justify-content: center;
-  color: white;
+  background-color: var(--orange2);
+  color: var(--color2);
   font-weight: 400;
   padding-bottom: 2rem;
   margin-bottom: 2rem;
 }
-.faq{
+.faq-container{
   display: flex;
   justify-content: center;
 }
@@ -180,8 +176,8 @@ padding: 1rem 2rem 1rem 2rem;
 .tab__label {
   justify-content: space-between;
   padding: 1rem;
-  background-color: rgb(256, 106, 0);
-  color: white;
+  background-color: var(--orange2);
+  color: var(--color2);
 }
 .tab__label::after {
   content: "\276F";
@@ -218,51 +214,3 @@ padding: 1rem 2rem 1rem 2rem;
   }
 }
 
-
-
-
-/*
-.franchising h2{
-  background-color: rgb(256, 130, 0);
-  display: flex;
-  justify-content: center;
-  color: white;
-  font-weight: 400;
-}
-.franchising h4{
-  background-color: rgb(256, 130, 0);
-  color: white;
-  font-weight: 400;
-  display: flex;
-  justify-content: center;
-}
-.franchising {
-  background-image: url(../assets/franchising.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 700px;
-  height: 450px;  
-}
-.investors h2{
-  background-color: rgb(256, 130, 0);
-  display: flex;
-  justify-content: center;
-  color: white;
-  font-weight: 400;
-}
-.investors h4{
-  background-color: rgb(256, 130, 0);
-  color: white;
-  font-weight: 400;
-  display: flex;
-  justify-content: center;
-}
-.investors {
-background-image: url(../assets/money.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-width: 700px;
-height: 450px;
-}
-
-*/
