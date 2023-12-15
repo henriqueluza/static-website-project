@@ -27,7 +27,7 @@ body {
 /* header */
 .actualpage {
   text-decoration: underline;
-  text-decoration-color: var(--color2);
+  text-decoration-color: var(--color1);
 }
 li,
 a,
@@ -35,7 +35,7 @@ button {
   font-family: Poppins;
   font-weight: 500;
   font-size: 16px;
-  color: var(--color2);
+  color: var(--color1);
   text-decoration: none;
 }
 
@@ -52,7 +52,7 @@ header {
 }
 .dropbtn {
   background-color: var(--orange1);
-  color: white;
+  color: var(--color1);
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -99,9 +99,10 @@ header img {
 
 .navlinks li a {
   transition: all 0.3s ease-out 0s;
+  color: var(--color1);
 }
 .navlinks li a:hover {
-  color: var(--color3);
+  color: var(--color2);
 }
 button {
   padding: 9px 25px;

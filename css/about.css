@@ -10,12 +10,7 @@ main {
   width: 100%;
   height: 500px;
   background-size: cover;
-}
-.about-header h1{
   color: var(--color2);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .history{
@@ -26,16 +21,16 @@ main {
     justify-content: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: var(--orange2);
-    color: var(--color2);
-    font-weight: 400;
+    background-color: var(--orange1);
+    color: var(--color1);
+    font-weight: 600;
 }
 .history h4{
   display: flex;
   justify-content: center;
-  font-weight: 400;
-  background-color: var(--orange2);
-  color: var(--color2);
+  font-weight: 600;
+  background-color: var(--orange1);
+  color: var(--color1);
   padding-bottom: 1rem;
   margin-bottom: 2rem;
 }
@@ -60,21 +55,21 @@ main {
 .extras-titles h2{
   display: flex;
   justify-content: center;
-  background-color: var(--orange2);
-  color: var(--color2);
-  font-weight: 400;
+  color: var(--color1);
+  font-weight: 600;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  background-color: var(--orange1);
 
 }
 .extras-titles h4{
   display: flex;
   justify-content: center;
-  background-color: var(--orange2);
-  color: var(--color2);
+  background-color: var(--orange1);
+  color: var(--color1);
   padding-bottom: 1rem;
   margin-bottom: 2rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 .extras-grid{
   display: grid;
@@ -85,50 +80,58 @@ main {
   margin-bottom: 2rem;
 }
 .hiring h4{
-  background-color: var(--orange2);
-  color: var(--color2);
+  background-color: var(--orange1);
+  color: var(--color1);
 padding: 1rem 1rem 1rem 1rem;
+
 }
 .franchising h4{
-  background-color: var(--orange2);
-  color: var(--color2);
+  background-color: var(--orange1);
+  color: var(--color1);
   padding: 1rem 1rem 1rem 1rem;
 }
 .investors h4{
-  background-color: var(--orange2);
-  color: var(--color2);
+  background-color: var(--orange1);
+  color: var(--color1);
   padding: 1rem 1rem 1rem 1rem;
+  
 }
 .hiring p{
   background-color: var(--orange2);
-  color: var(--color2);
+  color: var(--color1);
 padding: 1rem 2rem 1rem 2rem;
+border-right: 5px solid var(--orange1);
 }
 .franchising p{
   background-color: var(--orange2);
-  color: var(--color2);
+  color: var(--color1);
 padding: 1rem 2rem 1rem 2rem;
 }
 .investors p{
   background-color: var(--orange2);
-  color: var(--color2);
+  color: var(--color1);
   padding: 1rem 2rem 1rem 2rem;
+  border-left: 5px solid var(--orange1);
+}
+.extra-button{
+  background-color: var(--color2);
+  color: var(--color1);
 }
 .faq-header h1{
   display: flex;
   justify-content: center;
-  background-color: var(--orange2);
-  color: var(--color2);
-  font-weight: 400;
+  background-color: var(--orange1);
+  color: var(--color1);
+  font-weight: 600;
    padding-top: 2rem;
    padding-bottom: 1rem;
 }
 .faq-header h4{
   display: flex;
   justify-content: center;
-  background-color: var(--orange2);
-  color: var(--color2);
-  font-weight: 400;
+  background-color: var(--orange1);
+  color: var(--color1);
+  font-weight: 600;
   padding-bottom: 2rem;
   margin-bottom: 2rem;
 }
@@ -177,7 +180,7 @@ padding: 1rem 2rem 1rem 2rem;
   justify-content: space-between;
   padding: 1rem;
   background-color: var(--orange2);
-  color: var(--color2);
+  color: var(--color1);
 }
 .tab__label::after {
   content: "\276F";
@@ -208,9 +211,10 @@ padding: 1rem 2rem 1rem 2rem;
 @keyframes bounce {
   25% {
     transform: rotate(90deg) translate(.25rem);
+    opacity: 0;
   }
   75% {
     transform: rotate(90deg) translate(-.25rem);
+    opacity: 1;
   }
 }
-
