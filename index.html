@@ -1,159 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fast food brand</title>
-  <link rel="stylesheet" href="./css/main.css" />
-  <link rel="stylesheet" href="./css/styles.css" />
-  <script src="https://kit.fontawesome.com/447127b9bf.js" crossorigin="anonymous"></script>
-</head>
-<body>
-  <header>
-    <img class="logo" src="./assets/LOGOIMAGE.png" alt="logo" />
-    <nav>
-      <ul class="navlinks">
-        <li><a href="index.html">Home</a></li>
-        <li>
-          <div class="dropdown">
-            <button class="dropbtn"><a href="./pages/about.html">About</a></button>
-            <div class="dropdown-content">
-              <a href="./pages/about.html#history">Our History</a>
-              <a href="./pages/about.html#join-us">Join Us!</a>
-              <a href="./pages/about.html#faq">FAQ</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./main.js" />
+    <script
+      src="https://kit.fontawesome.com/447127b9bf.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      html {
+        font-size: 16px;
+        font-weight: 300;
+        font-family: Poppins;
+        line-height: 1.5rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <img class="logo" src="./assets/logo.jpg" alt="Logo" />
+      <nav>
+        <ul class="nav-links">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <div class="dropdown">
+              <button class="dropdown-button">
+                <a href="./pages/about.html">About</a>
+              </button>
+              <div class="dropdown-content">
+                <a href="./pages/about.html#history">Our History</a>
+                <a href="./pages/about.html#products">Our Products</a>
+                <a href="./pages/about.html#faq">FAQ</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="./pages/contact.html">Contact</a>
+          </li>
+          <li>
+            <button class="order-here">
+              <a href="./pages/404.html">Order</a>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="first-part">
+        <div class="first-part-text">
+          <h1>Welcome to Mr Burger</h1>
+          <h4>The best Burger n' Fries Shop in Vancouver, BC</h4>
+          <p>
+            Mr. Burger crafts a culinary haven with handcrafted, locally sourced
+            burgers. Each bite is a tale of flavor, from juicy Angus beef to
+            gourmet toppings. Customization reigns supreme, offering diverse
+            options for every palate. Beyond food, it's a community pillar,
+            fostering a shared love for exceptional burgers and local support.
+          </p>
+        </div>
+        <div class="first-part-image">
+          <img
+            src="./assets/main-page-burger-falling-apart-1.png"
+            alt="burger falling apart"
+          />
+        </div>
+      </section>
+      <section class="about-us">
+        <div class="text-container">
+          <div class="text">
+            <h1>About Us</h1>
+            <p>
+              In Burnaby, British Columbia, Mr. Burger sizzles as a burger
+              haven, crafting juicy delights that ignite taste buds. Born from
+              local food enthusiasts' dreams, it sources farm-fresh ingredients,
+              elevating each bite into a flavorful journey. The "Burnaby Bliss,"
+              a signature dish, boasts a succulent beef patty, smoked cheddar,
+              crispy bacon, and a secret tangy sauce hugged by a toasted brioche
+              bun.
+            </p>
+            <p>
+              Amid vintage decor and vibrant tunes, Mr. Burger's ambiance
+              matches its menu—inviting and community-driven. Every visit
+              creates memorable moments, uniting locals and tourists alike in a
+              shared love for these gourmet creations. From its humble
+              beginnings to becoming Burnaby's talk, Mr. Burger leaves an
+              indelible mark on every burger aficionado's palate.
+            </p>
+          </div>
+        </div>
+
+        <div class="slideshow-container">
+          
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./assets/eating.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./assets/eating2.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./assets/eating3.jpg" style="width: 100%" />
+          </div>
+
+         
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        
+        <div style="text-align: center">
+          <span onclick="currentSlide(1)"></span>
+          <span onclick="currentSlide(2)"></span>
+          <span onclick="currentSlide(3)"></span>
+        </div>
+
+        <script src="./main.js"></script>
+      </section>
+      <section class="second-part">
+        <div class="second-part-title">
+          <h1>Try our meals!</h1>
+          <h4>Canada's favorite Burgers and Sides:</h4>
+        </div>
+        <div class="second-part-content">
+          <h2>Burgers</h2>
+          <div class="container">
+            <div class="burgers-grid">
+              <!-- burger1 -->
+              <a href="">
+                <figure>
+                  <img src="./assets/cheeseburger.png" alt="burger" />
+                  <figcaption>Cheeseburger</figcaption>
+                </figure>
+              </a>
+              <!-- burger2 -->
+              <a href="">
+                <figure>
+                  <img src="./assets/baconburger.png" alt="burger" />
+                  <figcaption>Bacon Burger</figcaption>
+                </figure>
+              </a>
+              <!-- burger3 -->
+              <a href="">
+                <figure>
+                  <img src="./assets/megaburger.png" alt="burger" />
+                  <figcaption>Mega Burger</figcaption>
+                </figure>
+              </a>
             </div>
           </div>
-        </li>
-        <li><a href="./pages/features.html">Features</a></li>
-        <li><a href="./pages/menu.html">Menu</a></li>
-        <li><a href="./pages/contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main>
-    
-      <div class="main-header">
-        <h1>HLZ Burgers n' Fries</h1>
-      </div>
-      <div class="main-title">
-        <h2>Welcome to our Official Website</h2>
-        <h4>Get to know us better!</h4>
-      </div>
-      <div class="main-container">
-        <div class="main-grid">
-          <div class="main-text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi tempore voluptates sunt quis et. Fuga
-            voluptatem repellat, dignissimos expedita eum ea aliquam esse dicta voluptatibus magni laudantium inventore!
-            Explicabo, sapiente.
-          </div>
-          <img src="./assets/eatingfries.jpg" alt="People eating fries" />
-        </div>
-      </div>
+          <h2>Sides</h2>
 
-      <section class="app">
-        <div class="left">
-          <h2>Download our app and get Rewards</h2>
-          <p>Now that we have Rewards, all you need to do to get your hands on some is sign up online or through the app.
-            Once you’re all signed up, you can collect points on every order that you can redeem for free food in the
-            Rewards Store. So, what are you waiting for?
-          </p>
-          <button class="rewards">Rewards</button>
-          <div class="appstore">
-            <button class="applestore">Download in AppStore<i class="fa-brands fa-app-store-ios"></i></button>
-            <button class="googleplay">Download in Google Play<i class="fa-brands fa-google-play"></i></button>
+          <div class="container">
+            <div class="sides-grid">
+              <!-- side1 -->
+              <a href="">
+                <figure>
+                  <img src="./assets/fries.png" alt="side" />
+                  <figcaption>Fries</figcaption>
+                </figure>
+              </a>
+              <!-- side2 -->
+              <a href="">
+                <figure>
+                  <img src="./assets/cheddarfries.png" alt="side" />
+                  <figcaption>Fries with Cheddar</figcaption>
+                </figure>
+              </a>
+              <!-- side3 -->
+              <a href="">
+                <figure>
+                  <img src="./assets/nuggest.png" alt="side" />
+                  <figcaption>Nuggets</figcaption>
+                </figure>
+              </a>
+            </div>
           </div>
-        </div>
-        <div class="right">
-          <img src="./assets/iphone.png" alt="Phone with app screenshot" />
+
+          <h2>Drinks</h2>
+
+          <div class="container">
+            <div class="drinks-grid">
+              <!-- drink1 -->
+              <a href="">
+                <figure>
+                  <img src="./assets/coke.png" alt="drink" />
+                  <figcaption>Soda</figcaption>
+                </figure>
+              </a>
+              <!-- drink2 -->
+              <a href="">
+                <figure>
+                  <img src="./assets/juice.png" alt="drink" />
+                  <figcaption>Juices</figcaption>
+                </figure>
+              </a>
+              <!-- drink3 -->
+              <a href="">
+                <figure>
+                  <img src="./assets/milkshake.png" alt="drink" />
+                  <figcaption>Milkshake</figcaption>
+                </figure>
+              </a>
+            </div>
+          </div>
         </div>
       </section>
+    </main>
 
-      <section class="news">
-        <div class="news-header">
-          <h1>Our News</h1>
+    <footer>
+      <section class="footer-content">
+        <div class="footer-column">
+          <img class="negative-logo" src="./assets/negativelogo.png" alt="logo" />
+          <p>yapping about something ahahahh</p>
+          <div class="icons">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </div>
         </div>
-        <div class="news-grid">
-          <figure>
-            <img src="./assets/copenhagen.jpg">
-            <figcaption>
-              <h3>
-                New Restaurant in Copenhagen!
-              </h3>
-              <p>
-                Our first restaurant in Europe and it's in Denmark!
-              </p>
-            </figcaption>
-          </figure>
-          <figure>
-            <img src="./assets/yhouse.jpeg">
-            <figcaption>
-              <h3>
-                $1.000.000 donated to Charity!
-              </h3>
-              <p>
-                Thanks to your donations, we donated $1 million to the YALETOWN HOUSE FOUNDATION
-              </p>
-            </figcaption>
-          </figure>
-          <figure>
-            <img src="./assets/coffee.jpg">
-            <figcaption>
-              <h3>
-                SOON: Coffees!
-              </h3>
-              <p>
-                Make your breakfast even better with coffee, donuts and sweets!
-              </p>
-            </figcaption>
-          </figure>
-          <!-- Other news figures go here -->
+        <div class="footer-column">
+          <ul>
+            <li><h4>Pages</h4></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="./pages/about.html">About</a></li>
+            <li><a href="./pages/contact.html">Contact</a></li>
+            <li><a href="./pages/404.html">Order</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <ul>
+            <li><h4>Our Company</h4></li>
+            <li><a href="#">Work with us</a></li>
+            <li><a href="#">Franchising</a></li>
+            <li><a href="#">Investors</a></li>
+          </ul> 
+        </div>
+        <div class="footer-column">
+          <ul>
+            <li><h4>Help</h4></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Condition</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>  
         </div>
       </section>
-  </main>
-
-  <footer>
-    <div class="row">
-      <div class="col logo2">
-        <img src="./assets/LOGOIMAGE.png" />
-        <p>HLZ Burger N' Fries - The Simple Works
-        </p>
-      </div>
-      <div class="col">
-        <h3>Office</h3>
-        <p>Awesome Sauce Building, 12nd Floor, Room 1210</p>
-        <p>Burnaby</p>
-        <p>British Columbia, Canada</p>
-        <p class="email-id">hlzburgernfries@gmail.com</p>
-        <h4>+1 604 363 9742</h4>
-      </div>
-      <div class="col">
-        <h3>Links</h3>
-        <ul class="footer-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="./pages/about.html">About</a></li>
-          <li><a href="./pages/menu.html">Menu</a></li>
-          <li><a href="./pages/locations.html">Locations</a></li>
-          <li><a href="./pages/contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div class="col">
-        <h3>Newsletter</h3>
-        <form class="footerform">
-          <i class="fa-solid fa-envelope"></i> <!--mail icon here-->
-          <input type="email" placeholder="Enter your email id" required>
-          <button class="arrow-button"><i class="fa-solid fa-arrow-right"></i></button> <!--arrow icon here-->
-        </form>
-        <div class="social-icons">
-          <i class="fa-brands fa-x-twitter"></i> <!--twitter-->
-          <i class="fa-brands fa-instagram"></i> <!--instagram-->
-          <i class="fa-brands fa-facebook-f"></i> <!--facebook-->
-          <i class="fa-brands fa-tiktok"></i> <!--tiktok-->
-        </div>
-      </div>
-    </div>
-    <hr>
-    <p class="copyright">HLZ Burger N' Fries © 2023 - All rights reserved</p>
-  </footer>
-</body>
+      <hr>
+      <section class="copyright">
+        <p>℗2023 Mr. Burger, All rights reserved</p>
+      </section>      
+    </footer>
+  </body>
 </html>

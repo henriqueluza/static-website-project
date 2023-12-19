@@ -3,155 +3,177 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./pages/" />
+    <title>Document</title>
     <link rel="stylesheet" href="../css/contact.css" />
-   <link rel="stylesheet" href="../css/styles.css"/>
-    <link rel="stylesheet" href="./assets/" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="./main.js" />
-    <title>Fast food brand</title>
-    <script src="https://kit.fontawesome.com/447127b9bf.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/447127b9bf.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      html {
+        font-size: 16px;
+        font-weight: 300;
+        font-family: Poppins;
+        line-height: 1.5rem;
+      }
+    </style>
   </head>
 
   <body>
     <header>
-      <img class="logo" src="../assets/LOGOIMAGE.png" alt="logo" />
+      <img class="logo" src="../assets/logo.png" alt="Logo" />
       <nav>
-        <ul class="navlinks">
+        <ul class="nav-links">
           <li>
             <a href="../index.html">Home</a>
           </li>
           <li>
-            
             <div class="dropdown">
-              <button class="dropbtn"><a href="../pages/about.html">About</a></button>
+              <button class="dropdown-button">
+                <a href="about.html">What makes us Special?</a>
+              </button>
               <div class="dropdown-content">
-                <a href="../pages/about.html#history">Our History</a>
-                <a href="../pages/about.html#join-us">Join Us!</a>
-                <a href="../pages/about.html#faq">FAQ</a>
+                <a href="about.html#history">Our History</a>
+                <a href="about.html#products">Our Products</a>
+                <a href="about.html#faq">FAQ</a>
               </div>
             </div>
-          </li>    
-          <li><a href="../pages/features.html">Features</a></li>
-          <li><a href="../pages/menu.html">Menu</a></li>
-          <li><a href="../pages/contact.html"><div class="actualpage">Contact</div></a></li>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <button class="order-here"><a href="404.html">Order Here</a></button>
+          </li>
         </ul>
       </nav>
     </header>
+    <main>
+      <section class="contact">
+        <div class="contact-title-container">
+          <div class="contact-title">
+            <h1>Contact Us</h1>
+            <h4>We'll answer any questions, complains or suggestions!</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Perspiciatis nemo assumenda voluptatum ab ipsum eum! Culpa
+              cupiditate nemo natus, itaque nobis quo perferendis nam vero autem
+              soluta provident aliquid illum.
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
+              ratione laborum consequuntur fugiat eum optio quibusdam, at
+              voluptas nam porro sed delectus enim veniam aspernatur dolores
+              quae, adipisci incidunt amet!
+            </p>
+          </div>
+        </div>
+          
 
-  <main>
-      <div class="contact-header">
-        <h1>Contact Us</h1>
-      </div>
-      <div class="contact-title">
-        <h2>Suggestions, complaints or special messages</h2>
-        <h4>We would love to hear what you have to say!</h4>
-      </div>
-        <div class="container">
-          <div class="contact-box">
-            <div class="contact-left">
-              <h3>Sent your request</h3>
-              <form>
-                <div class="input-row">
-                  <div class="input-group">
-                    <label>Name</label>
-                    <input type="text" placeholder="Your name" required>
-                  </div>
-                  <div class="input-group">
-                    <label>Phone</label>
-                    <input type="number" placeholder="Your number" required>
-                  </div>
-                </div>
-
-                  <div class="input-row">
-                    <div class="input-group">
-                      <label>Email</label>
-                      <input type="email" placeholder="Your email" required>
-                    </div>
-                    <div class="input-group">
-                      <label>Subject</label>
-                      <input type="text" placeholder="Any subject" required>
-                    </div>
-                </div>
-
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <div class="first-half">
+              <div class="name">
+                <label>First name</label>
+                <input type="text" placeholder="First name" required /> <br />
+                <label>Last name</label>
+                <input type="text" placeholder="Last name" required /> <br />
+              </div>
+              <div class="rest">
+                <label>Email</label>
+                <input type="email" placeholder="Your email" required /> <br />
+                <label>Phone-number</label>
+                <input type="number" placeholder="Your Phone-number" required />
+                <br />
+              </div>
+              <div class="text-message">
                 <label>Message</label>
-                <textarea rows="5" placeholder="Your message"></textarea>
-
-                <button class="submit-button" type="submit">Send</button> 
-
-
-              </form>
+                <textarea></textarea>
+              </div>
+              <button class="contact-button" type="submit">Contact Us</button>
             </div>
-            <div class="contact-right">
-              <h3>Reach Us</h3>
-              <table>
-                <tr>
-                  <td>Email</td>
-                  <td>hlzburgernfries@gmail.com</td>
-                </tr>
-                <tr>
-                  <td>Phone</td>
-                  <td>+1 604 363 9742</td>
-                </tr>
-                <tr>
-                  <td>Adress</td>
-                  <td>Awesome Sauce Building, 12nd Floor, Room 1210 <br>
 
-                    Burnaby <br>
-                    
-                    British Columbia, Canada</td>
-                </tr>
-              </table>
+            <div class="info">
+              <div class="number">
+                <i class="fa-solid fa-phone" style="color: #000000"></i>
+                <div class="number-text">
+                  <h2>Call us</h2>
+                  <p>+1 604 363 9742</p>
+                </div>
+              </div>
+              <div class="adress">
+                <i class="fa-solid fa-building" style="color: #000000"></i>
+                <div class="adress-text">
+                  <h2>Visit our office</h2>
+                  <p>1433 Awesome Sauce St, Burnaby, B.C.</p>
+                </div>
+              </div>
+              <div class="email">
+                <i class="fa-solid fa-envelope" style="color: #000000"></i>
+                <div class="email-text">
+                  <h2>Our email</h2>
+                  <p>contact@mrburger.com</p>
+                </div>
+              </div>
+              <div class="contact-social-media">
+                <i class="fa-brands fa-instagram" style="color: #ffffff"></i>
+                <i class="fa-brands fa-x-twitter" style="color: #ffffff"></i>
+                <i
+                  class="fa-brands fa-square-facebook"
+                  style="color: #ffffff"
+                ></i>
+              </div>
             </div>
           </div>
         </div>
+      </section>
     </main>
 
     <footer>
-      <div class="row">
-        <div class="col logo2">
-          <img src="../assets/LOGOIMAGE.png" />
-          <p>HLZ Burger N' Fries - The Simple Works
-          </p>
-        </div>
-        <div class="col">
-          <h3>Office</h3>
-          <p>Awesome Sauce Building, 12nd Floor, Room 1210</p>
-          <p>Burnaby</p>
-          <p>British Columbia, Canada</p>
-          <p class="email-id">hlzburgernfries@gmail.com</p>
-          <h4>+1 604 363 9742</h4>
-        </div>
-        <div class="col">
-          <h3>Links</h3>
-          <ul class="footer-links">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="locations.html">Locations</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col">
-          <h3>Newsletter</h3>
-          <form class="footerform">
-            <i class="fa-solid fa-envelope"></i> <!--mail icon here-->
-            <input type="email" placeholder="Enter your email id" required>
-            <button><i class="fa-solid fa-arrow-right"></i></button> <!--arrow icon here-->
-          </form>
-          <div class="social-icons">
-            <i class="fa-brands fa-x-twitter"></i> <!--twitter-->
-            <i class="fa-brands fa-instagram"></i> <!--instagram-->
-            <i class="fa-brands fa-facebook-f"></i> <!--facebook-->
-            <i class="fa-brands fa-tiktok"></i> <!--tiktok-->
-
+      <section class="footer-content">
+        <div class="footer-column">
+          <img class="negative-logo" src="../assets/negativelogo.png" alt="logo" />
+          <p>yapping about something ahahahh</p>
+          <div class="icons">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
           </div>
         </div>
-      </div>
+        <div class="footer-column">
+          <ul>
+            <li><h4>Pages</h4></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">What makes us Special?</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="404.html">Order Here</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <ul>
+            <li><h4>Our Company</h4></li>
+            <li><a href="#">Work with us</a></li>
+            <li><a href="#">Franchising</a></li>
+            <li><a href="#">Investors</a></li>
+          </ul> 
+        </div>
+        <div class="footer-column">
+          <ul>
+            <li><h4>Help</h4></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Condition</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>  
+        </div>
+      </section>
       <hr>
-      <p class="copyright">HLZ Burger N' Fries © 2023 - All rights reserved</p>
+      <section class="copyright">
+        <p>℗2023 Mr. Burger, All rights reserved</p>
+      </section>  
     </footer>
   </body>
 </html>
-
-
-
