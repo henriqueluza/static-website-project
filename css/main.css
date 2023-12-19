@@ -97,11 +97,6 @@ figcaption {
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgb(256, 130, 0);
-}
 
 /* Number text (1/3 etc) */
 .numbertext {
@@ -128,6 +123,11 @@ figcaption {
   to {
     opacity: 1;
   }
+}
+.fixed-social-media{
+  margin-left: 90rem;
+  position: fixed;
+
 }
 /* mobile */
 
