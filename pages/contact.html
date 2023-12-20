@@ -1,179 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/contact.css" />
-    <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href="./main.js" />
-    <script
-      src="https://kit.fontawesome.com/447127b9bf.js"
-      crossorigin="anonymous"
-    ></script>
-    <style>
-      html {
-        font-size: 16px;
-        font-weight: 300;
-        font-family: Poppins;
-        line-height: 1.5rem;
-      }
-    </style>
-  </head>
 
-  <body>
-    <header>
-      <img class="logo" src="../assets/logo.png" alt="Logo" />
-      <nav>
-        <ul class="nav-links">
-          <li>
-            <a href="../index.html">Home</a>
-          </li>
-          <li>
-            <div class="dropdown">
-              <button class="dropdown-button">
-                <a href="about.html">About</a>
-              </button>
-              <div class="dropdown-content">
-                <a href="about.html#history">Our History</a>
-                <a href="about.html#products">Our Products</a>
-                <a href="about.html#faq">FAQ</a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/contact.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="./main.js">
+  <script src="https://kit.fontawesome.com/447127b9bf.js" crossorigin="anonymous"></script>
+  <style>
+    html {
+      font-size: 16px;
+      font-weight: 300;
+      font-family: Poppins;
+      line-height: 1.5rem;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <img class="logo" src="../assets/logo.png" alt="Logo">
+    <nav>
+      <ul class="nav-links">
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <div class="dropdown">
+            <a href="about.html">About</a>
+            <div class="dropdown-content">
+              <a href="about.html#history">Our History</a>
+              <a href="about.html#products">Our Products</a>
+              <a href="about.html#faq">FAQ</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+        <li>
+          <a href="404.html">Order</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- main -->
+  <main>
+    <section class="contact">
+      <div class="contact-title-container">
+        <div class="contact-title">
+          <h1>Contact Us</h1>
+          <h4>We'll answer any questions, complains or suggestions!</h4>
+          <p>
+            Got questions or feedback? We'd love to hear from you! Reach out to our dedicated team at Mr. Burger for any
+            inquiries, assistance, or collaboration opportunities. Whether it's about our products, services, or
+            partnership proposals, we're here to assist you.
+
+
+          </p>
+          <p>
+            Your input matters to us, and we strive to ensure your experience with Mr. Burger is exceptional. Don't
+            hesitate to get in touch – we're eager to connect with you!"
+          </p>
+        </div>
+      </div>
+
+      <!-- contact form -->
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <!-- input part -->
+          <div class="first-half">
+            <div class="name">
+              <label>First name</label>
+              <input type="text" placeholder="First name" required> <br>
+              <label>Last name</label>
+              <input type="text" placeholder="Last name" required> <br>
+            </div>
+            <div class="rest">
+              <label>Email</label>
+              <input type="email" placeholder="Your email" required> <br>
+              <label>Phone-number</label>
+              <input type="number" placeholder="Your Phone-number" required>
+              <br>
+            </div>
+            <div class="text-message">
+              <label>Message</label>
+              <textarea></textarea>
+            </div>
+            <button class="contact-button" type="submit">Contact Us</button>
+          </div>
+          <!-- company info -->
+          <div class="info">
+            <div class="number">
+              <i class="fa-solid fa-phone" style="color: #000000"></i>
+              <div class="number-text">
+                <h2>Call us</h2>
+                <p>+1 604 363 9742</p>
               </div>
             </div>
-          </li>
+            <div class="adress">
+              <i class="fa-solid fa-building" style="color: #000000"></i>
+              <div class="adress-text">
+                <h2>Visit our office</h2>
+                <p>1433 Awesome Sauce St, Burnaby, B.C.</p>
+              </div>
+            </div>
+            <div class="email">
+              <i class="fa-solid fa-envelope" style="color: #000000"></i>
+              <div class="email-text">
+                <h2>Our email</h2>
+                <p>contact@mrburger.com</p>
+              </div>
+            </div>
+            <div class="contact-social-media">
+              <i class="fa-brands fa-instagram" style="color: #ffffff"></i>
+              <i class="fa-brands fa-x-twitter" style="color: #ffffff"></i>
+              <i class="fa-brands fa-square-facebook" style="color: #ffffff"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+<!-- footer -->
+  <footer>
+    <section class="footer-content">
+      <div class="footer-column">
+        <img class="negative-logo" src="../assets/negativelogo.png" alt="logo">
+        <p>yapping about something ahahahh</p>
+        <div class="icons">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <ul>
           <li>
-            <a href="contact.html">Contact</a>
+            <h4>Pages</h4>
           </li>
-          <li>
-            <button class="order-here"><a href="404.html">Order</a></button>
-          </li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">What makes us Special?</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="404.html">Order</a></li>
         </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="contact">
-        <div class="contact-title-container">
-          <div class="contact-title">
-            <h1>Contact Us</h1>
-            <h4>We'll answer any questions, complains or suggestions!</h4>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Perspiciatis nemo assumenda voluptatum ab ipsum eum! Culpa
-              cupiditate nemo natus, itaque nobis quo perferendis nam vero autem
-              soluta provident aliquid illum.
-            </p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
-              ratione laborum consequuntur fugiat eum optio quibusdam, at
-              voluptas nam porro sed delectus enim veniam aspernatur dolores
-              quae, adipisci incidunt amet!
-            </p>
-          </div>
-        </div>
-          
+      </div>
+      <div class="footer-column">
+        <ul>
+          <li>
+            <h4>Our Company</h4>
+          </li>
+          <li><a href="#">Work with us</a></li>
+          <li><a href="#">Franchising</a></li>
+          <li><a href="#">Investors</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <ul>
+          <li>
+            <h4>Help</h4>
+          </li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Condition</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+    </section>
+    <hr>
+    <div class="copyright">
+      <p>℗2023 Mr. Burger, All rights reserved</p>
+    </div>
+  </footer>
+</body>
 
-        <div class="contact-form-container">
-          <div class="contact-form">
-            <div class="first-half">
-              <div class="name">
-                <label>First name</label>
-                <input type="text" placeholder="First name" required /> <br />
-                <label>Last name</label>
-                <input type="text" placeholder="Last name" required /> <br />
-              </div>
-              <div class="rest">
-                <label>Email</label>
-                <input type="email" placeholder="Your email" required /> <br />
-                <label>Phone-number</label>
-                <input type="number" placeholder="Your Phone-number" required />
-                <br />
-              </div>
-              <div class="text-message">
-                <label>Message</label>
-                <textarea></textarea>
-              </div>
-              <button class="contact-button" type="submit">Contact Us</button>
-            </div>
-
-            <div class="info">
-              <div class="number">
-                <i class="fa-solid fa-phone" style="color: #000000"></i>
-                <div class="number-text">
-                  <h2>Call us</h2>
-                  <p>+1 604 363 9742</p>
-                </div>
-              </div>
-              <div class="adress">
-                <i class="fa-solid fa-building" style="color: #000000"></i>
-                <div class="adress-text">
-                  <h2>Visit our office</h2>
-                  <p>1433 Awesome Sauce St, Burnaby, B.C.</p>
-                </div>
-              </div>
-              <div class="email">
-                <i class="fa-solid fa-envelope" style="color: #000000"></i>
-                <div class="email-text">
-                  <h2>Our email</h2>
-                  <p>contact@mrburger.com</p>
-                </div>
-              </div>
-              <div class="contact-social-media">
-                <i class="fa-brands fa-instagram" style="color: #ffffff"></i>
-                <i class="fa-brands fa-x-twitter" style="color: #ffffff"></i>
-                <i
-                  class="fa-brands fa-square-facebook"
-                  style="color: #ffffff"
-                ></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <section class="footer-content">
-        <div class="footer-column">
-          <img class="negative-logo" src="../assets/negativelogo.png" alt="logo" />
-          <p>yapping about something ahahahh</p>
-          <div class="icons">
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-          </div>
-        </div>
-        <div class="footer-column">
-          <ul>
-            <li><h4>Pages</h4></li>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">What makes us Special?</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="404.html">Order</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <ul>
-            <li><h4>Our Company</h4></li>
-            <li><a href="#">Work with us</a></li>
-            <li><a href="#">Franchising</a></li>
-            <li><a href="#">Investors</a></li>
-          </ul> 
-        </div>
-        <div class="footer-column">
-          <ul>
-            <li><h4>Help</h4></li>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Condition</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">FAQ</a></li>
-          </ul>  
-        </div>
-      </section>
-      <hr>
-      <section class="copyright">
-        <p>℗2023 Mr. Burger, All rights reserved</p>
-      </section>  
-    </footer>
-  </body>
 </html>

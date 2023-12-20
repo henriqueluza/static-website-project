@@ -29,12 +29,19 @@ header {
   display: flex;
   justify-content: center;
 
-  button {
+  form {
+    display: flex;
+    justify-content: center;
     background-color: var(--color6);
     width: 150px;
     border-radius: 10px;
     font-family: Poppins;
     border: 2px solid var(--color1);
+    input{
+      font-family: Poppins;
+      background-color: var(--color6);
+      border: none;
+    }
   }
 }
 

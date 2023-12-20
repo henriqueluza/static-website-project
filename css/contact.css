@@ -1,9 +1,11 @@
+/* mobile */
 @media (min-width: 320px) and (max-width: 600px) {
   body {
     background-image: url(../assets/contact-background-mobile.png);
     background-repeat: no-repeat;
     width: 100%;
   }
+  /* contact */
   .contact-title-container {
     margin-top: 2rem;
     display: flex;
@@ -25,6 +27,7 @@
       margin-bottom: 0.5rem;
     }
   }
+  /* contact container */
   .contact-form-container {
     display: flex;
     justify-content: center;
@@ -37,6 +40,7 @@
     margin-right: 1rem;
     width: 100%;
   }
+  /* input part */
   .first-half {
     font-size: 8px;
     border-bottom: 1px solid var(--color1);
@@ -107,7 +111,7 @@
     }
   }
 }
-
+/* tablet */
 @media (min-width: 601px) and (max-width: 1023px) {
   body {
     background-image: url(../assets/contact-background-tablet.png);
@@ -165,6 +169,7 @@
       border-bottom: 1px solid var(--color2);
       color: var(--color1)
     }
+    /* names */
     .name {
       display: flex;
       align-items: center;
@@ -173,11 +178,13 @@
         margin-right: 0.5rem;
       }
     }
+    /* email and number */
     .rest {
       display: flex;
       align-items: center;
       margin-right: 0.5rem;
     }
+    /* write message */
     .text-message {
       margin-top: 1rem;
       margin-bottom: 1rem;
@@ -199,6 +206,7 @@
         background-color: (256, 106, 0);
       }
     }
+    /* button */
     .contact-button {
       background-color: var(--color2);
       font-family: Poppins;
@@ -219,6 +227,7 @@
     }
   }
 }
+/* desktop */
 @media (min-width: 1024px) {
   body {
     background-image: url(../assets/contact-background.png);
@@ -248,7 +257,6 @@
       margin-bottom: 1rem;
     }
   }
-
   /* contact container */
   .contact-form-container {
     display: flex;
@@ -322,7 +330,6 @@
       margin-left: 1rem;
     }
   }
-
   .number {
     display: flex;
   }

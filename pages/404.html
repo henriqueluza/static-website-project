@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/404.css" />
+    <link rel="stylesheet" href="../css/404.css">
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="./main.js" />
+    <link rel="stylesheet" href="./main.js">
     <script src="https://kit.fontawesome.com/447127b9bf.js" crossorigin="anonymous"></script>
     <style>
         html {
@@ -20,8 +20,9 @@
 </head>
 
 <body>
+    <!-- header -->
     <header>
-        <img class="logo" src="../assets/logo.png" alt="Logo" />
+        <img class="logo" src="../assets/logo.png" alt="Logo">
         <nav>
             <ul class="nav-links">
                 <li>
@@ -29,7 +30,7 @@
                 </li>
                 <li>
                     <div class="dropdown">
-                        <button class="dropdown-button"><a href="about.html">About</a></button>
+                       <a href="about.html">About</a>
                         <div class="dropdown-content">
                             <a href="about.html#history">Our History</a>
                             <a href="about.html#products">Our Products</a>
@@ -41,13 +42,14 @@
                     <a href="contact.html">Contact</a>
                 </li>
                 <li>
-                    <button class="order-here"><a href="404.html">Order</a></button>
+                    <a href="404.html">Order</a>
                   </li>
             </ul>
         </nav>
     </header>
-   
+   <!-- main -->
     <main>
+        <!-- 404 -->
         <section class="four-o-four">
             <div class="title">
                 <h1>404</h1>
@@ -58,15 +60,17 @@
                 <p>Oops! The page you are looking for does not exist. It might have been moved or deleted.</p>
             </div>
             <div class="four-o-four-button">
-                <button><a href="../index.html"><h2>Back to home</h2></a></button>
+                <form action="../index.html">
+                    <input type="submit" value="Back to Home">
+                </form>
             </div>
         </section>
     </main>
-
+<!-- footer -->
     <footer>
         <section class="footer-content">
             <div class="footer-column">
-              <img class="negative-logo" src="../assets/negativelogo.png" alt="logo" />
+              <img class="negative-logo" src="../assets/negativelogo.png" alt="logo">
               <p>yapping about something ahahahh</p>
               <div class="icons">
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -103,9 +107,9 @@
             </div>
           </section>
           <hr>
-          <section class="copyright">
+          <div class="copyright">
             <p>℗2023 Mr. Burger, All rights reserved</p>
-          </section>  
+          </div>  
     </footer>
 </body>
 

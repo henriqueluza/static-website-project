@@ -1,5 +1,4 @@
 /* HISTORY */
-
 .history {
   display: flex;
   justify-content: center;
@@ -61,7 +60,6 @@
 .tab input:checked ~ .tab__content {
   max-height: 10rem;
 }
-
 /* Visual styles */
 .accordion1,
 .accordion2,
@@ -70,7 +68,6 @@
   overflow: hidden;
   margin-bottom: 1rem;
 }
-
 .tab__label,
 .tab__close {
   display: flex;
@@ -145,7 +142,6 @@
       width: 200px;
     }
   }
-
   .products-text {
     margin-left: 1rem;
     h1 {
@@ -169,7 +165,6 @@
       width: 200px;
     }
   }
-
   .faq-text {
     h1 {
       font-size: 40px;
@@ -208,7 +203,6 @@
       width: 350px;
     }
   }
-
   .products-text {
     margin-left: 1rem;
     h1 {
@@ -232,7 +226,6 @@
       width: 350px;
     }
   }
-
   .faq-text {
     h1 {
       font-size: 40px;
